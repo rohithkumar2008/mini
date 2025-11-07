@@ -88,12 +88,12 @@ void temperature_menu(void) {
             case 1:
                 read_double("Enter Celsius: ", &val, 1);
                 result = c_to_f(val);
-                printf("°F = %.2f\n", result);
+                printf("Fahrenheit = %.2f\n", result);
                 break;
             case 2:
                 read_double("Enter Fahrenheit: ", &val, 1);
                 result = f_to_c(val);
-                printf("°C = %.2f\n", result);
+                printf("Celsius = %.2f\n", result);
                 break;
             case 3:
                 return;
