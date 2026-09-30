@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-                                                                       // Function declarations
+                                                                       
 void lengthConverter();
 void weightConverter();
 void temperatureConverter();
@@ -46,7 +46,7 @@ int main() {
     return 0;
 }
 
-                                                               // Function to convert length
+                                                               
 void lengthConverter() {
     int option;
     float km, m, cm;
@@ -89,7 +89,7 @@ void lengthConverter() {
     }
 }
 
-                                                                     // Function to convert weight
+                                                                    
 void weightConverter() {
     int option;
     float kg, g, mg;
@@ -132,7 +132,7 @@ void weightConverter() {
     }
 }
 
-                                                               // Function to convert temperature
+                                                              
 void temperatureConverter() {
     int option;
     float c, f, k;
@@ -175,7 +175,7 @@ void temperatureConverter() {
     }
 }
 
-                                                                        // Function to convert time
+                                                                        
 void timeConverter() {
     int option;
     float hr, min, sec;
